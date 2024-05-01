@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style/index.css">
+  <title>Quiz</title>
+</head>
+<body>
+  <header>
+    <div class="titel"><a href="#">Quiz Game</a></div>
+    <div class="socium">
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+  </header>
+  <div class="main">
+    <div class="quiz">
+      <div id="question-container" class="question"></div>
+      <div id="options-container" class="options">
+        <button class="answer"></button>
+        <button class="answer"></button>
+        <button class="answer"></button>
+        <button class="answer"></button>
+      </div>
+  </div>
+    <div id="correctAnswer" class="correctAnswer">
+      <div class="panel">
+        <div class="end">End</div>
+          <div class="result"></div>
+          <button class="btn" onclick="hideCorrectAnswer()">New Game</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
